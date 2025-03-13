@@ -15,7 +15,7 @@ This created README_ready.ipynb in current working directory
 #### Option 2
 Convert workshop README.md to jupyter notebook without text, containing only bash codes and tests.
 ```
-cat /path/to/your/workshop/README.md | md-to-bash-jupyter-prepare.sh > workshop.sh
+cat /path/to/your/workshop/README.md | scripts/md-to-bash-jupyter-prepare.sh > workshop.sh
 jupytext --to notebook workshop.sh
 ```
 This creates a jupyter notebook containig only bash code blocks and tests from original workshop README file.
