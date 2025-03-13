@@ -1,5 +1,5 @@
 # workshop-jupyter-convert
-Convert workshops to jupyter notebook
+Convert [solo workshops](https://github.com/solo-io/workshops) README.md to jupyter notebook
 
 ### Prerquisites
 Have [jupytext](https://jupytext.readthedocs.io/en/latest/install.html) installed
