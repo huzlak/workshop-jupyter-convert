@@ -1,7 +1,7 @@
 # workshop-jupyter-convert
 Convert workshops to jupyter notebook
 
-###Prerquisites
+### Prerquisites
 Have [jupytext](https://jupytext.readthedocs.io/en/latest/install.html) installed
 
 ### Usage
