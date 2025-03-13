@@ -20,3 +20,5 @@ jupytext --to notebook workshop.sh
 ```
 This creates a jupyter notebook containig only bash code blocks and tests from original workshop README file.
 
+### Limitations
+Resulting jupyter notebook needs to be moved to workshop directory in order to properly work as it depends on scripts located in the workshop repo.
