@@ -6,14 +6,14 @@ Have [jupytext](https://jupytext.readthedocs.io/en/latest/install.html) installe
 
 ### Usage
 #### Option 1
-Convert workshop README.md to jupyter notebook containing all the text as well as commands and tests
+Convert workshop README.md to jupyter notebook containing all the text, bash blocks and tests.
 ```
 cat /path/to/your/workshop/README.md | scripts/md-to-jupyter-prepare.sh > README_ready.md
 jupytext --to notebook README_ready.md
 ```
 This created README_ready.ipynb in current working directory
 #### Option 2
-Convert workshop README.md to jupyter notebook without any text, only bash codes and tests
+Convert workshop README.md to jupyter notebook without text, containing only bash codes and tests.
 ```
 cat /path/to/your/workshop/README.md | md-to-bash-prepare-ipynb.sh > workshop.sh
 jupytext --to notebook workshop.sh
