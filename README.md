@@ -21,5 +21,5 @@ jupytext --to notebook workshop.sh
 This creates a jupyter notebook containig only bash code blocks and tests from original workshop README file.
 
 ### Limitations
-Resulting jupyter notebook needs to be moved to workshop directory in order to properly work as it depends on scripts located in the workshop repo.
+Resulting jupyter notebook needs to be moved to workshop directory in order to properly work as it depends on scripts located in the workshop repo.  
 Converting scripts add `export TERM=xterm` into resulting files. This is required for embeded scripts to work. It could be removed if I'd know a way to change default `TERM` for my jupyter kernel.
